@@ -8,7 +8,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  fhir: ^0.12.0
+  fhir:
+    git:
+      url: https://github.com/sp-nazar/fhir.git
+      ref: v0.12.0
   fhir_path:
     path: ../../fhir_path
   google_fonts: ^4.0.4
